@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-17T11:14:24Z",
+  "generated_at": "2026-05-17T11:15:57Z",
   "repository_name": "c-governed-cli-agent-mesh",
   "remote_url": "https://github.com/Kot141078/c-governed-cli-agent-mesh.git",
   "visibility": "public",
   "branch": "main",
-  "commit_hash": "pending_until_git_commit",
-  "pushed_status": "pending",
+  "commit_hash": "80483e3b2e55c177f6fa45b5c3d35ffaf56e8e19",
+  "pushed_status": "pushed_to_origin_main",
   "markdown_count": 32,
   "pdf_count": 32,
   "schema_count": 27,
@@ -23,7 +23,17 @@
       "hits": []
     }
   },
+  "remote_verification": {
+    "owner": "Kot141078",
+    "repository": "c-governed-cli-agent-mesh",
+    "visibility": "PUBLIC",
+    "default_branch": "main",
+    "remote_head": "80483e3b2e55c177f6fa45b5c3d35ffaf56e8e19"
+  },
   "blockers": [],
   "warnings": [],
-  "recommendation": "Ready to push initial main branch to GitHub. No release, tag, or Zenodo action is authorized."
+  "recommendation": "Next step: human review the GitHub repository page and only then decide whether to create a GitHub release or Zenodo archive in a separate contract.",
+  "no_github_release_created": true,
+  "no_zenodo_upload_performed": true,
+  "no_conformance_supported_claim_made": true
 }

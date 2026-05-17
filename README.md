@@ -13,7 +13,7 @@ This is a draft public staging package for the C-Governed CLI Agent Mesh technic
 
 ## Status
 
-Draft public package candidate. No GitHub release has been created and no Zenodo upload has been performed by this package build.
+Draft public package candidate. This repository contains the CGAM v0.1.1 draft protocol package. Release and DOI status are tracked through the GitHub Releases page and Zenodo record when available.
 
 This package is not legal advice, not product certification, not conformance-supported, and not deployment-ready.
 

@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-05-17T11:22:28Z",
+  "task": "CGAM v0.1.1 Pre-Release Status Wording Patch",
+  "files_patched": [
+    "README.md",
+    "STATUS.md",
+    "GITHUB_RELEASE_DRAFT.md"
+  ],
+  "replacement_wording": "This repository contains the CGAM v0.1.1 draft protocol package. Release and DOI status are tracked through the GitHub Releases page and Zenodo record when available.",
+  "stale_wording_scan": {
+    "status": "pass",
+    "hits": []
+  },
+  "forbidden_claim_scan": {
+    "status": "pass",
+    "hits": []
+  },
+  "sha256sums_path": "SHA256SUMS",
+  "warnings": [],
+  "blockers": [],
+  "recommendation": "Commit and push the wording patch to origin/main.",
+  "no_github_release_created": true,
+  "no_zenodo_upload_performed": true,
+  "no_conformance_supported_claim_made": true
+}

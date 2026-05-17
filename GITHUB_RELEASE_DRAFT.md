@@ -27,7 +27,7 @@ It does not claim conformance-supported status.
 
 ## Zenodo Note
 
-`.zenodo.json` is included for future archive metadata. No Zenodo upload has been performed by this local preparation step.
+`.zenodo.json` is included for archive metadata. This repository contains the CGAM v0.1.1 draft protocol package. Release and DOI status are tracked through the GitHub Releases page and Zenodo record when available.
 
 ## License Note
 
