@@ -1,0 +1,210 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:cgams:schema:cgam-common-defs:0.1",
+  "title": "CGAM Common Definitions 0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "$defs": {
+    "object_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{1,191}$"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "governing_entity_id": {
+      "type": "string"
+    },
+    "human_anchor_ref": {
+      "type": "string"
+    },
+    "agent_ref": {
+      "type": "string"
+    },
+    "task_contract_ref": {
+      "type": "string"
+    },
+    "permission_grant_ref": {
+      "type": "string"
+    },
+    "sandbox_ref": {
+      "type": "string"
+    },
+    "witness_ref": {
+      "type": "string"
+    },
+    "evidence_sidecar_ref": {
+      "type": "string"
+    },
+    "artifact_hash_ref": {
+      "type": "string"
+    },
+    "release_surface_ref": {
+      "type": "string"
+    },
+    "decision": {
+      "type": "string",
+      "enum": [
+        "allowed",
+        "denied",
+        "held",
+        "blocked",
+        "frozen",
+        "quarantined",
+        "revoked",
+        "expired",
+        "completed",
+        "failed",
+        "accepted",
+        "rejected",
+        "needs_review",
+        "red_line_fail"
+      ]
+    },
+    "risk_class": {
+      "type": "string",
+      "enum": [
+        "R0",
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "RX"
+      ]
+    },
+    "sensitivity_class": {
+      "type": "string",
+      "enum": [
+        "public",
+        "public_redacted",
+        "restricted",
+        "internal_private",
+        "private_memory",
+        "secret",
+        "legal_privileged",
+        "incident_sensitive",
+        "never_public"
+      ]
+    },
+    "retention_class": {
+      "type": "string",
+      "enum": [
+        "ephemeral",
+        "operational",
+        "audit",
+        "incident",
+        "legal_hold",
+        "memory_gate",
+        "core",
+        "restricted_90d",
+        "permanent",
+        "review_required"
+      ]
+    },
+    "gate_status": {
+      "type": "string",
+      "enum": [
+        "not_required",
+        "not_evaluated",
+        "passed",
+        "failed",
+        "blocked",
+        "unknown",
+        "expired",
+        "superseded"
+      ]
+    },
+    "checker_status": {
+      "type": "string",
+      "enum": [
+        "pass",
+        "pass_with_warnings",
+        "fail",
+        "blocked",
+        "red_line_fail",
+        "inconclusive"
+      ]
+    },
+    "implementation_claim": {
+      "type": "string",
+      "enum": [
+        "draft_complete",
+        "release_completion_in_progress",
+        "release_complete",
+        "implementation_readiness_in_progress",
+        "implementation_ready",
+        "implementation_executed",
+        "conformance_supported",
+        "public_release_ready"
+      ]
+    },
+    "disclosure_class": {
+      "type": "string",
+      "enum": [
+        "public",
+        "public_redacted",
+        "restricted",
+        "internal",
+        "secret_ref",
+        "legal",
+        "incident",
+        "memory",
+        "never_public"
+      ]
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-fA-F0-9]{64}$"
+    },
+    "uri_or_path_ref": {
+      "type": "string"
+    }
+  },
+  "properties": {
+    "schema_version": {
+      "const": "cgam-common-defs-0.1"
+    },
+    "definitions": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "agent_ref",
+          "artifact_hash_ref",
+          "checker_status",
+          "created_at",
+          "decision",
+          "disclosure_class",
+          "evidence_sidecar_ref",
+          "gate_status",
+          "governing_entity_id",
+          "human_anchor_ref",
+          "implementation_claim",
+          "object_id",
+          "permission_grant_ref",
+          "release_surface_ref",
+          "retention_class",
+          "risk_class",
+          "sandbox_ref",
+          "sensitivity_class",
+          "sha256",
+          "task_contract_ref",
+          "updated_at",
+          "uri_or_path_ref",
+          "witness_ref"
+        ]
+      }
+    }
+  },
+  "required": [
+    "schema_version"
+  ]
+}

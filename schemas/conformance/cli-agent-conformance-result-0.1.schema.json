@@ -1,0 +1,254 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:cgams:schema:cli-agent-conformance-result:0.1",
+  "title": "Cli Agent Conformance Result",
+  "description": "Conformance result shape; no conformance-supported claim is made.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "result_id"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "cli-agent-conformance-result-0.1"
+    },
+    "object_id": {
+      "$ref": "urn:cgams:schema:cgam-common-defs:0.1#/$defs/object_id"
+    },
+    "created_at": {
+      "$ref": "urn:cgams:schema:cgam-common-defs:0.1#/$defs/created_at"
+    },
+    "updated_at": {
+      "$ref": "urn:cgams:schema:cgam-common-defs:0.1#/$defs/updated_at"
+    },
+    "governing_entity_id": {
+      "$ref": "urn:cgams:schema:cgam-common-defs:0.1#/$defs/governing_entity_id"
+    },
+    "human_anchor_ref": {
+      "$ref": "urn:cgams:schema:cgam-common-defs:0.1#/$defs/human_anchor_ref"
+    },
+    "agent_ref": {
+      "$ref": "urn:cgams:schema:cgam-common-defs:0.1#/$defs/agent_ref"
+    },
+    "task_contract_ref": {
+      "$ref": "urn:cgams:schema:cgam-common-defs:0.1#/$defs/task_contract_ref"
+    },
+    "permission_grant_ref": {
+      "$ref": "urn:cgams:schema:cgam-common-defs:0.1#/$defs/permission_grant_ref"
+    },
+    "sandbox_ref": {
+      "$ref": "urn:cgams:schema:cgam-common-defs:0.1#/$defs/sandbox_ref"
+    },
+    "witness_ref": {
+      "$ref": "urn:cgams:schema:cgam-common-defs:0.1#/$defs/witness_ref"
+    },
+    "evidence_sidecar_ref": {
+      "$ref": "urn:cgams:schema:cgam-common-defs:0.1#/$defs/evidence_sidecar_ref"
+    },
+    "artifact_hash_ref": {
+      "$ref": "urn:cgams:schema:cgam-common-defs:0.1#/$defs/artifact_hash_ref"
+    },
+    "release_surface_ref": {
+      "$ref": "urn:cgams:schema:cgam-common-defs:0.1#/$defs/release_surface_ref"
+    },
+    "decision": {
+      "$ref": "urn:cgams:schema:cgam-common-defs:0.1#/$defs/decision"
+    },
+    "risk_class": {
+      "$ref": "urn:cgams:schema:cgam-common-defs:0.1#/$defs/risk_class"
+    },
+    "sensitivity_class": {
+      "$ref": "urn:cgams:schema:cgam-common-defs:0.1#/$defs/sensitivity_class"
+    },
+    "retention_class": {
+      "$ref": "urn:cgams:schema:cgam-common-defs:0.1#/$defs/retention_class"
+    },
+    "gate_status": {
+      "$ref": "urn:cgams:schema:cgam-common-defs:0.1#/$defs/gate_status"
+    },
+    "checker_status": {
+      "$ref": "urn:cgams:schema:cgam-common-defs:0.1#/$defs/checker_status"
+    },
+    "implementation_claim": {
+      "$ref": "urn:cgams:schema:cgam-common-defs:0.1#/$defs/implementation_claim"
+    },
+    "disclosure_class": {
+      "$ref": "urn:cgams:schema:cgam-common-defs:0.1#/$defs/disclosure_class"
+    },
+    "source_profile": {
+      "const": "CLI_Agent_Conformance_Test_Matrix_v0_1.md"
+    },
+    "source_refs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "file": {
+            "type": "string"
+          },
+          "hash_ref": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "file"
+        ]
+      }
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "direct_memory_write_allowed": {
+      "const": false
+    },
+    "self_approval_allowed": {
+      "const": false
+    },
+    "witness_tampering_allowed": {
+      "const": false
+    },
+    "secret_prompting_allowed": {
+      "const": false
+    },
+    "live_external_exploitation_allowed": {
+      "const": false
+    },
+    "hack_back_allowed": {
+      "const": false
+    },
+    "autonomous_retaliation_allowed": {
+      "const": false
+    },
+    "malware_behavior_allowed": {
+      "const": false
+    },
+    "credential_theft_allowed": {
+      "const": false
+    },
+    "covert_persistence_allowed": {
+      "const": false
+    },
+    "uncontrolled_network_allowed": {
+      "const": false
+    },
+    "cloud_secret_upload_allowed": {
+      "const": false
+    },
+    "result_id": {
+      "type": "string"
+    },
+    "claim": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "summary": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "decision": {
+          "$ref": "urn:cgams:schema:cgam-common-defs:0.1#/$defs/decision"
+        },
+        "refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "direct_memory_write_allowed": {
+          "const": false
+        },
+        "self_approval_allowed": {
+          "const": false
+        },
+        "uncontrolled_network_allowed": {
+          "const": false
+        },
+        "cloud_secret_upload_allowed": {
+          "const": false
+        }
+      }
+    },
+    "test_run_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence_summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "summary": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "decision": {
+          "$ref": "urn:cgams:schema:cgam-common-defs:0.1#/$defs/decision"
+        },
+        "refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "direct_memory_write_allowed": {
+          "const": false
+        },
+        "self_approval_allowed": {
+          "const": false
+        },
+        "uncontrolled_network_allowed": {
+          "const": false
+        },
+        "cloud_secret_upload_allowed": {
+          "const": false
+        }
+      }
+    },
+    "red_line_failures": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "result": {
+      "type": "string",
+      "enum": [
+        "PASS",
+        "PASS_WITH_LIMITS",
+        "FAIL",
+        "BLOCKED",
+        "INCONCLUSIVE",
+        "NOT_APPLICABLE"
+      ]
+    },
+    "claim_support": {
+      "type": "string",
+      "enum": [
+        "unsupported",
+        "inconclusive",
+        "scoped_pass",
+        "pass_with_limits",
+        "revoked_by_red_line"
+      ]
+    }
+  }
+}

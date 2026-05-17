@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-05-17T10:52:29Z",
+  "target_directory": "public_release_staging_cgam_v0_1_1",
+  "license_files_created": [
+    "LICENSE.md",
+    "LICENSE-DOCS-CC-BY-4.0.md",
+    "LICENSE-CODE-MIT.md"
+  ],
+  "files_updated": [
+    "README.md",
+    "STATUS.md",
+    "RELEASE_NOTES.md",
+    "CITATION.cff",
+    ".zenodo.json",
+    "manifests/PUBLIC_PACKAGE_MANIFEST.json",
+    "reports/PUBLIC_STAGING_REPORT.md",
+    "reports/PUBLIC_STAGING_REPORT.json",
+    "SHA256SUMS"
+  ],
+  "license_pending_removed": true,
+  "documentation_license": "CC-BY-4.0",
+  "code_machine_artifact_license": "MIT",
+  "warnings": [],
+  "blocked_items": [],
+  "qa": {
+    "license_pending_hits": [],
+    "local_path_hits": [],
+    "secret_hits": [],
+    "forbidden_claim_hits": [],
+    "citation_cff_yaml_check": {
+      "checked": true,
+      "status": "valid"
+    }
+  },
+  "SHA256SUMS_path": "SHA256SUMS",
+  "recommendation": "license finalization complete; public staging candidate eligible for human review",
+  "no_github_release_created": true,
+  "no_zenodo_upload_performed": true,
+  "no_conformance_supported_claim_made": true
+}

@@ -1,0 +1,1 @@
+C-Governed CLI Agent Mesh: draft protocol pack for governing executable CLI/cloud agents under persistent c governance.

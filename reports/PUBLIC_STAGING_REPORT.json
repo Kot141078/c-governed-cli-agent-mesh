@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-05-17T10:45:55Z",
+  "source_roots": {
+    "source_root": "<SOURCE_ROOT>",
+    "canonical_markdown_source": "<CANONICAL_MARKDOWN_SOURCE>",
+    "implementation_handoff_source": "<IMPLEMENTATION_HANDOFF_SOURCE>"
+  },
+  "output_root": "public_release_staging_cgam_v0_1_1",
+  "markdown_count": 32,
+  "pdf_count": 32,
+  "schema_count": 27,
+  "warnings": [],
+  "blocked_items": [],
+  "local_path_scan_result": {
+    "status": "pass",
+    "hits": []
+  },
+  "secret_marker_scan_result": {
+    "status": "pass",
+    "hits": []
+  },
+  "forbidden_claim_scan_result": {
+    "status": "pass",
+    "hits": []
+  },
+  "citation_cff_yaml_check": {
+    "checked": true,
+    "status": "valid"
+  },
+  "SHA256SUMS_path": "SHA256SUMS",
+  "recommendation": "public staging candidate eligible for human review",
+  "license_status": {
+    "documentation": "CC-BY-4.0",
+    "code_and_machine_artifacts": "MIT",
+    "license_pending": false
+  }
+}

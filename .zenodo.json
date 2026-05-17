@@ -1,0 +1,24 @@
+{
+  "title": "C-Governed CLI Agent Mesh v0.1.1",
+  "creators": [
+    {
+      "name": "Kotov, Ivan",
+      "orcid": "0009-0009-6002-9845"
+    }
+  ],
+  "description": "Draft technical protocol package for C-Governed CLI Agent Mesh v0.1.1, including synchronized Markdown sources, derived review PDFs, P0 JSON Schemas, semantic validator bindings, and synthetic fixture manifest for executable worker governance. Documentation is licensed CC BY 4.0; schemas, indexes, manifests, fixtures, validator bindings, and other machine-readable artifacts are MIT-licensed.",
+  "version": "0.1.1",
+  "keywords": [
+    "c=a+b",
+    "L4",
+    "SER",
+    "AI safety",
+    "CLI agents",
+    "witness",
+    "memory gate",
+    "executable worker governance"
+  ],
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "license": "cc-by-4.0"
+}

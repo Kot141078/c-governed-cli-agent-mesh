@@ -1,0 +1,414 @@
+{
+  "schema_version": "cli-agent-fixture-manifest-0.1",
+  "package": "C-Governed CLI Agent Mesh",
+  "package_version": "0.1.1-hygiene",
+  "generated_at": "2026-05-17T10:34:13Z",
+  "fixture_policy": "manifest_only_synthetic_placeholders_no_live_targets_no_real_evidence_no_secrets",
+  "fixtures": [
+    {
+      "fixture_id": "fixture-p0-001-cli-agent-readiness-record",
+      "title": "Synthetic placeholder for CLI_AGENT_READINESS_RECORD",
+      "schema_ref": "schemas/readiness-gate/cli-agent-readiness-record-0.1.schema.json",
+      "semantic_validator": "validate_readiness_record_semantics",
+      "expected_structural_result": "pass",
+      "expected_semantic_result": "needs_review",
+      "sensitivity": "public_synthetic_placeholder",
+      "profiles_tested": [
+        "CLI_Agent_Release_and_Implementation_Readiness_Gate_v0_1.md"
+      ],
+      "red_line_expected": false,
+      "fixture_status": "placeholder_manifest_only",
+      "notes": "Synthetic manifest reference only. No exploit, malware, credential, live-target, secret, private-memory, or real incident content. Current package readiness state."
+    },
+    {
+      "fixture_id": "fixture-p0-002-cli-agent-release-completion-record",
+      "title": "Synthetic placeholder for CLI_AGENT_RELEASE_COMPLETION_RECORD",
+      "schema_ref": "schemas/readiness-gate/cli-agent-release-completion-record-0.1.schema.json",
+      "semantic_validator": "validate_release_completion_record_semantics",
+      "expected_structural_result": "pass",
+      "expected_semantic_result": "needs_review",
+      "sensitivity": "public_synthetic_placeholder",
+      "profiles_tested": [
+        "CLI_Agent_Release_and_Implementation_Readiness_Gate_v0_1.md"
+      ],
+      "red_line_expected": false,
+      "fixture_status": "placeholder_manifest_only",
+      "notes": "Synthetic manifest reference only. No exploit, malware, credential, live-target, secret, private-memory, or real incident content. Release-completion gate record shape; no release-complete claim is made."
+    },
+    {
+      "fixture_id": "fixture-p0-003-cli-agent-implementation-handoff-record",
+      "title": "Synthetic placeholder for CLI_AGENT_IMPLEMENTATION_HANDOFF_RECORD",
+      "schema_ref": "schemas/readiness-gate/cli-agent-implementation-handoff-record-0.1.schema.json",
+      "semantic_validator": "validate_implementation_handoff_record_semantics",
+      "expected_structural_result": "pass",
+      "expected_semantic_result": "needs_review",
+      "sensitivity": "public_synthetic_placeholder",
+      "profiles_tested": [
+        "CLI_Agent_Release_and_Implementation_Readiness_Gate_v0_1.md"
+      ],
+      "red_line_expected": false,
+      "fixture_status": "placeholder_manifest_only",
+      "notes": "Synthetic manifest reference only. No exploit, malware, credential, live-target, secret, private-memory, or real incident content. Bounded implementation handoff record."
+    },
+    {
+      "fixture_id": "fixture-p0-004-cli-agent-claim-control-record",
+      "title": "Synthetic placeholder for CLI_AGENT_CLAIM_CONTROL_RECORD",
+      "schema_ref": "schemas/readiness-gate/cli-agent-claim-control-record-0.1.schema.json",
+      "semantic_validator": "validate_claim_control_record_semantics",
+      "expected_structural_result": "pass",
+      "expected_semantic_result": "needs_review",
+      "sensitivity": "public_synthetic_placeholder",
+      "profiles_tested": [
+        "CLI_Agent_Release_and_Implementation_Readiness_Gate_v0_1.md"
+      ],
+      "red_line_expected": false,
+      "fixture_status": "placeholder_manifest_only",
+      "notes": "Synthetic manifest reference only. No exploit, malware, credential, live-target, secret, private-memory, or real incident content. Claim-control record preventing overclaiming."
+    },
+    {
+      "fixture_id": "fixture-p0-005-cli-agent-ab-mode-declaration",
+      "title": "Synthetic placeholder for CLI_AGENT_AB_MODE_DECLARATION",
+      "schema_ref": "schemas/ab-gate-semantics/cli-agent-ab-mode-declaration-0.1.schema.json",
+      "semantic_validator": "validate_ab_mode_declaration_semantics",
+      "expected_structural_result": "pass",
+      "expected_semantic_result": "needs_review",
+      "sensitivity": "public_synthetic_placeholder",
+      "profiles_tested": [
+        "CLI_Agent_AB_Mode_and_Gate_Semantics_Profile_v0_1.md"
+      ],
+      "red_line_expected": false,
+      "fixture_status": "placeholder_manifest_only",
+      "notes": "Synthetic manifest reference only. No exploit, malware, credential, live-target, secret, private-memory, or real incident content. A/B mode declaration."
+    },
+    {
+      "fixture_id": "fixture-p0-006-cli-agent-gate-semantics-record",
+      "title": "Synthetic placeholder for CLI_AGENT_GATE_SEMANTICS_RECORD",
+      "schema_ref": "schemas/ab-gate-semantics/cli-agent-gate-semantics-record-0.1.schema.json",
+      "semantic_validator": "validate_gate_semantics_record_semantics",
+      "expected_structural_result": "pass",
+      "expected_semantic_result": "needs_review",
+      "sensitivity": "public_synthetic_placeholder",
+      "profiles_tested": [
+        "CLI_Agent_AB_Mode_and_Gate_Semantics_Profile_v0_1.md"
+      ],
+      "red_line_expected": false,
+      "fixture_status": "placeholder_manifest_only",
+      "notes": "Synthetic manifest reference only. No exploit, malware, credential, live-target, secret, private-memory, or real incident content. Gate semantics record."
+    },
+    {
+      "fixture_id": "fixture-p0-007-cli-agent-gate-evaluation-record",
+      "title": "Synthetic placeholder for CLI_AGENT_GATE_EVALUATION_RECORD",
+      "schema_ref": "schemas/ab-gate-semantics/cli-agent-gate-evaluation-record-0.1.schema.json",
+      "semantic_validator": "validate_gate_evaluation_record_semantics",
+      "expected_structural_result": "pass",
+      "expected_semantic_result": "needs_review",
+      "sensitivity": "public_synthetic_placeholder",
+      "profiles_tested": [
+        "CLI_Agent_AB_Mode_and_Gate_Semantics_Profile_v0_1.md"
+      ],
+      "red_line_expected": false,
+      "fixture_status": "placeholder_manifest_only",
+      "notes": "Synthetic manifest reference only. No exploit, malware, credential, live-target, secret, private-memory, or real incident content. Gate evaluation record."
+    },
+    {
+      "fixture_id": "fixture-p0-008-cli-agent-registry",
+      "title": "Synthetic placeholder for CLI_AGENT_REGISTRY",
+      "schema_ref": "schemas/registry/cli-agent-registry-0.1.schema.json",
+      "semantic_validator": "validate_registry_semantics",
+      "expected_structural_result": "pass",
+      "expected_semantic_result": "needs_review",
+      "sensitivity": "public_synthetic_placeholder",
+      "profiles_tested": [
+        "CLI_Agent_Registry_Profile_v0_1.md"
+      ],
+      "red_line_expected": false,
+      "fixture_status": "placeholder_manifest_only",
+      "notes": "Synthetic manifest reference only. No exploit, malware, credential, live-target, secret, private-memory, or real incident content. Registry root; not permission authority."
+    },
+    {
+      "fixture_id": "fixture-p0-009-cli-agent-registry-entry",
+      "title": "Synthetic placeholder for CLI_AGENT_REGISTRY_ENTRY",
+      "schema_ref": "schemas/registry/cli-agent-registry-entry-0.1.schema.json",
+      "semantic_validator": "validate_registry_entry_semantics",
+      "expected_structural_result": "pass",
+      "expected_semantic_result": "needs_review",
+      "sensitivity": "public_synthetic_placeholder",
+      "profiles_tested": [
+        "CLI_Agent_Registry_Profile_v0_1.md"
+      ],
+      "red_line_expected": false,
+      "fixture_status": "placeholder_manifest_only",
+      "notes": "Synthetic manifest reference only. No exploit, malware, credential, live-target, secret, private-memory, or real incident content. Registry entry for one agent/execution surface."
+    },
+    {
+      "fixture_id": "fixture-p0-010-cli-agent-task-contract",
+      "title": "Synthetic placeholder for CLI_AGENT_TASK_CONTRACT",
+      "schema_ref": "schemas/task-contract/cli-agent-task-contract-0.1.schema.json",
+      "semantic_validator": "validate_task_contract_semantics",
+      "expected_structural_result": "pass",
+      "expected_semantic_result": "needs_review",
+      "sensitivity": "public_synthetic_placeholder",
+      "profiles_tested": [
+        "CLI_Agent_Task_Contract_Schema_v0_1.md"
+      ],
+      "red_line_expected": false,
+      "fixture_status": "placeholder_manifest_only",
+      "notes": "Synthetic manifest reference only. No exploit, malware, credential, live-target, secret, private-memory, or real incident content. Task-scoped execution contract."
+    },
+    {
+      "fixture_id": "fixture-p0-011-cli-agent-permission-grant",
+      "title": "Synthetic placeholder for CLI_AGENT_PERMISSION_GRANT",
+      "schema_ref": "schemas/permission-capability/cli-agent-permission-grant-0.1.schema.json",
+      "semantic_validator": "validate_permission_grant_semantics",
+      "expected_structural_result": "pass",
+      "expected_semantic_result": "needs_review",
+      "sensitivity": "public_synthetic_placeholder",
+      "profiles_tested": [
+        "CLI_Agent_Permission_and_Capability_Model_v0_1.md"
+      ],
+      "red_line_expected": false,
+      "fixture_status": "placeholder_manifest_only",
+      "notes": "Synthetic manifest reference only. No exploit, malware, credential, live-target, secret, private-memory, or real incident content. Task-bound permission grant."
+    },
+    {
+      "fixture_id": "fixture-p0-012-cli-agent-handshake",
+      "title": "Synthetic placeholder for CLI_AGENT_HANDSHAKE",
+      "schema_ref": "schemas/handshake/cli-agent-handshake-0.1.schema.json",
+      "semantic_validator": "validate_handshake_semantics",
+      "expected_structural_result": "pass",
+      "expected_semantic_result": "needs_review",
+      "sensitivity": "public_synthetic_placeholder",
+      "profiles_tested": [
+        "CLI_Agent_Handshake_Profile_v0_1.md"
+      ],
+      "red_line_expected": false,
+      "fixture_status": "placeholder_manifest_only",
+      "notes": "Synthetic manifest reference only. No exploit, malware, credential, live-target, secret, private-memory, or real incident content. Agent admission and provenance record."
+    },
+    {
+      "fixture_id": "fixture-p0-013-cli-agent-sandbox-profile",
+      "title": "Synthetic placeholder for CLI_AGENT_SANDBOX_PROFILE",
+      "schema_ref": "schemas/sandbox-worktree/cli-agent-sandbox-profile-0.1.schema.json",
+      "semantic_validator": "validate_sandbox_profile_semantics",
+      "expected_structural_result": "pass",
+      "expected_semantic_result": "needs_review",
+      "sensitivity": "public_synthetic_placeholder",
+      "profiles_tested": [
+        "CLI_Agent_Sandbox_Worktree_Profile_v0_1.md"
+      ],
+      "red_line_expected": false,
+      "fixture_status": "placeholder_manifest_only",
+      "notes": "Synthetic manifest reference only. No exploit, malware, credential, live-target, secret, private-memory, or real incident content. Execution boundary profile."
+    },
+    {
+      "fixture_id": "fixture-p0-014-cli-agent-witness-event",
+      "title": "Synthetic placeholder for CLI_AGENT_WITNESS_EVENT",
+      "schema_ref": "schemas/witness/cli-agent-witness-event-0.1.schema.json",
+      "semantic_validator": "validate_witness_event_semantics",
+      "expected_structural_result": "pass",
+      "expected_semantic_result": "needs_review",
+      "sensitivity": "restricted_synthetic_placeholder",
+      "profiles_tested": [
+        "CLI_Agent_Witness_Event_Profile_v0_1.md"
+      ],
+      "red_line_expected": false,
+      "fixture_status": "placeholder_manifest_only",
+      "notes": "Synthetic manifest reference only. No exploit, malware, credential, live-target, secret, private-memory, or real incident content. Boundary transition witness event."
+    },
+    {
+      "fixture_id": "fixture-p0-015-cli-agent-raw-evidence-sidecar",
+      "title": "Synthetic placeholder for CLI_AGENT_RAW_EVIDENCE_SIDECAR",
+      "schema_ref": "schemas/raw-evidence-sidecar/cli-agent-raw-evidence-sidecar-0.1.schema.json",
+      "semantic_validator": "validate_raw_evidence_sidecar_semantics",
+      "expected_structural_result": "pass",
+      "expected_semantic_result": "needs_review",
+      "sensitivity": "restricted_synthetic_placeholder",
+      "profiles_tested": [
+        "CLI_Agent_Raw_Evidence_Sidecar_Profile_v0_1.md"
+      ],
+      "red_line_expected": false,
+      "fixture_status": "placeholder_manifest_only",
+      "notes": "Synthetic manifest reference only. No exploit, malware, credential, live-target, secret, private-memory, or real incident content. Restricted raw-evidence custody object."
+    },
+    {
+      "fixture_id": "fixture-p0-016-cli-agent-memory-gate-record",
+      "title": "Synthetic placeholder for CLI_AGENT_MEMORY_GATE_RECORD",
+      "schema_ref": "schemas/memory-gate/cli-agent-memory-gate-record-0.1.schema.json",
+      "semantic_validator": "validate_memory_gate_record_semantics",
+      "expected_structural_result": "pass",
+      "expected_semantic_result": "needs_review",
+      "sensitivity": "restricted_synthetic_placeholder",
+      "profiles_tested": [
+        "CLI_Agent_Memory_Gate_Profile_v0_1.md"
+      ],
+      "red_line_expected": false,
+      "fixture_status": "placeholder_manifest_only",
+      "notes": "Synthetic manifest reference only. No exploit, malware, credential, live-target, secret, private-memory, or real incident content. Memory promotion gate decision record."
+    },
+    {
+      "fixture_id": "fixture-p0-017-cli-agent-freeze-record",
+      "title": "Synthetic placeholder for CLI_AGENT_FREEZE_RECORD",
+      "schema_ref": "schemas/rollback-freeze/cli-agent-freeze-record-0.1.schema.json",
+      "semantic_validator": "validate_freeze_record_semantics",
+      "expected_structural_result": "pass",
+      "expected_semantic_result": "needs_review",
+      "sensitivity": "public_synthetic_placeholder",
+      "profiles_tested": [
+        "CLI_Agent_Rollback_and_Freeze_Profile_v0_1.md"
+      ],
+      "red_line_expected": false,
+      "fixture_status": "placeholder_manifest_only",
+      "notes": "Synthetic manifest reference only. No exploit, malware, credential, live-target, secret, private-memory, or real incident content. Fail-closed freeze/interruption record."
+    },
+    {
+      "fixture_id": "fixture-p0-018-cli-agent-review-record",
+      "title": "Synthetic placeholder for CLI_AGENT_REVIEW_RECORD",
+      "schema_ref": "schemas/quorum-review/cli-agent-review-record-0.1.schema.json",
+      "semantic_validator": "validate_review_record_semantics",
+      "expected_structural_result": "pass",
+      "expected_semantic_result": "needs_review",
+      "sensitivity": "public_synthetic_placeholder",
+      "profiles_tested": [
+        "CLI_Agent_Quorum_and_Review_Profile_v0_1.md"
+      ],
+      "red_line_expected": false,
+      "fixture_status": "placeholder_manifest_only",
+      "notes": "Synthetic manifest reference only. No exploit, malware, credential, live-target, secret, private-memory, or real incident content. Independent review decision record."
+    },
+    {
+      "fixture_id": "fixture-p0-019-cli-agent-data-classification-record",
+      "title": "Synthetic placeholder for CLI_AGENT_DATA_CLASSIFICATION_RECORD",
+      "schema_ref": "schemas/secrets-cloud-data/cli-agent-data-classification-record-0.1.schema.json",
+      "semantic_validator": "validate_data_classification_record_semantics",
+      "expected_structural_result": "pass",
+      "expected_semantic_result": "needs_review",
+      "sensitivity": "restricted_synthetic_placeholder",
+      "profiles_tested": [
+        "CLI_Agent_Secrets_and_Cloud_Data_Policy_v0_1.md"
+      ],
+      "red_line_expected": false,
+      "fixture_status": "placeholder_manifest_only",
+      "notes": "Synthetic manifest reference only. No exploit, malware, credential, live-target, secret, private-memory, or real incident content. Data classification and cloud boundary record."
+    },
+    {
+      "fixture_id": "fixture-p0-020-cli-agent-local-checker-profile",
+      "title": "Synthetic placeholder for CLI_AGENT_LOCAL_CHECKER_PROFILE",
+      "schema_ref": "schemas/local-checker/cli-agent-local-checker-profile-0.1.schema.json",
+      "semantic_validator": "validate_local_checker_profile_semantics",
+      "expected_structural_result": "pass",
+      "expected_semantic_result": "needs_review",
+      "sensitivity": "public_synthetic_placeholder",
+      "profiles_tested": [
+        "CLI_Agent_Local_Checker_Profile_v0_1.md"
+      ],
+      "red_line_expected": false,
+      "fixture_status": "placeholder_manifest_only",
+      "notes": "Synthetic manifest reference only. No exploit, malware, credential, live-target, secret, private-memory, or real incident content. Deterministic local checker profile."
+    },
+    {
+      "fixture_id": "fixture-p0-021-cli-agent-checker-run",
+      "title": "Synthetic placeholder for CLI_AGENT_CHECKER_RUN",
+      "schema_ref": "schemas/local-checker/cli-agent-checker-run-0.1.schema.json",
+      "semantic_validator": "validate_checker_run_semantics",
+      "expected_structural_result": "pass",
+      "expected_semantic_result": "needs_review",
+      "sensitivity": "public_synthetic_placeholder",
+      "profiles_tested": [
+        "CLI_Agent_Local_Checker_Profile_v0_1.md"
+      ],
+      "red_line_expected": false,
+      "fixture_status": "placeholder_manifest_only",
+      "notes": "Synthetic manifest reference only. No exploit, malware, credential, live-target, secret, private-memory, or real incident content. Local checker run record."
+    },
+    {
+      "fixture_id": "fixture-p0-022-cli-agent-checker-result",
+      "title": "Synthetic placeholder for CLI_AGENT_CHECKER_RESULT",
+      "schema_ref": "schemas/local-checker/cli-agent-checker-result-0.1.schema.json",
+      "semantic_validator": "validate_checker_result_semantics",
+      "expected_structural_result": "pass",
+      "expected_semantic_result": "needs_review",
+      "sensitivity": "public_synthetic_placeholder",
+      "profiles_tested": [
+        "CLI_Agent_Local_Checker_Profile_v0_1.md"
+      ],
+      "red_line_expected": false,
+      "fixture_status": "placeholder_manifest_only",
+      "notes": "Synthetic manifest reference only. No exploit, malware, credential, live-target, secret, private-memory, or real incident content. Local checker result record."
+    },
+    {
+      "fixture_id": "fixture-p0-023-cli-agent-release-surface-record",
+      "title": "Synthetic placeholder for CLI_AGENT_RELEASE_SURFACE_RECORD",
+      "schema_ref": "schemas/release-public-surface/cli-agent-release-surface-record-0.1.schema.json",
+      "semantic_validator": "validate_release_surface_record_semantics",
+      "expected_structural_result": "pass",
+      "expected_semantic_result": "needs_review",
+      "sensitivity": "public_synthetic_placeholder",
+      "profiles_tested": [
+        "CLI_Agent_Release_Public_Surface_Profile_v0_1.md"
+      ],
+      "red_line_expected": false,
+      "fixture_status": "placeholder_manifest_only",
+      "notes": "Synthetic manifest reference only. No exploit, malware, credential, live-target, secret, private-memory, or real incident content. Release/public-surface status record; no release claim is made."
+    },
+    {
+      "fixture_id": "fixture-p0-024-cli-agent-public-package-manifest",
+      "title": "Synthetic placeholder for CLI_AGENT_PUBLIC_PACKAGE_MANIFEST",
+      "schema_ref": "schemas/release-public-surface/cli-agent-public-package-manifest-0.1.schema.json",
+      "semantic_validator": "validate_public_package_manifest_semantics",
+      "expected_structural_result": "pass",
+      "expected_semantic_result": "needs_review",
+      "sensitivity": "public_synthetic_placeholder",
+      "profiles_tested": [
+        "CLI_Agent_Release_Public_Surface_Profile_v0_1.md"
+      ],
+      "red_line_expected": false,
+      "fixture_status": "placeholder_manifest_only",
+      "notes": "Synthetic manifest reference only. No exploit, malware, credential, live-target, secret, private-memory, or real incident content. Public package manifest shape."
+    },
+    {
+      "fixture_id": "fixture-p0-025-cli-agent-release-gate-record",
+      "title": "Synthetic placeholder for CLI_AGENT_RELEASE_GATE_RECORD",
+      "schema_ref": "schemas/release-public-surface/cli-agent-release-gate-record-0.1.schema.json",
+      "semantic_validator": "validate_release_gate_record_semantics",
+      "expected_structural_result": "pass",
+      "expected_semantic_result": "needs_review",
+      "sensitivity": "public_synthetic_placeholder",
+      "profiles_tested": [
+        "CLI_Agent_Release_Public_Surface_Profile_v0_1.md"
+      ],
+      "red_line_expected": false,
+      "fixture_status": "placeholder_manifest_only",
+      "notes": "Synthetic manifest reference only. No exploit, malware, credential, live-target, secret, private-memory, or real incident content. Release gate check record; no pass claim is made."
+    },
+    {
+      "fixture_id": "fixture-p0-026-cli-agent-public-restricted-split-record",
+      "title": "Synthetic placeholder for CLI_AGENT_PUBLIC_RESTRICTED_SPLIT_RECORD",
+      "schema_ref": "schemas/release-public-surface/cli-agent-public-restricted-split-record-0.1.schema.json",
+      "semantic_validator": "validate_public_restricted_split_record_semantics",
+      "expected_structural_result": "pass",
+      "expected_semantic_result": "needs_review",
+      "sensitivity": "restricted_synthetic_placeholder",
+      "profiles_tested": [
+        "CLI_Agent_Release_Public_Surface_Profile_v0_1.md"
+      ],
+      "red_line_expected": false,
+      "fixture_status": "placeholder_manifest_only",
+      "notes": "Synthetic manifest reference only. No exploit, malware, credential, live-target, secret, private-memory, or real incident content. Public/restricted split control record."
+    },
+    {
+      "fixture_id": "fixture-p0-027-cli-agent-conformance-result",
+      "title": "Synthetic placeholder for CLI_AGENT_CONFORMANCE_RESULT",
+      "schema_ref": "schemas/conformance/cli-agent-conformance-result-0.1.schema.json",
+      "semantic_validator": "validate_conformance_result_semantics",
+      "expected_structural_result": "pass",
+      "expected_semantic_result": "needs_review",
+      "sensitivity": "public_synthetic_placeholder",
+      "profiles_tested": [
+        "CLI_Agent_Conformance_Test_Matrix_v0_1.md"
+      ],
+      "red_line_expected": false,
+      "fixture_status": "placeholder_manifest_only",
+      "notes": "Synthetic manifest reference only. No exploit, malware, credential, live-target, secret, private-memory, or real incident content. Conformance result shape; no conformance-supported claim is made."
+    }
+  ]
+}

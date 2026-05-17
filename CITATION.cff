@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it using the metadata from this file."
+title: "C-Governed CLI Agent Mesh"
+authors:
+  - family-names: "Kotov"
+    given-names: "Ivan"
+    orcid: "https://orcid.org/0009-0009-6002-9845"
+version: "0.1.1"
+date-released: "2026-05-17"
+license: "CC-BY-4.0 AND MIT"

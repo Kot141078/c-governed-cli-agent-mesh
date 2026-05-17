@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-05-17T11:14:24Z",
+  "repository_name": "c-governed-cli-agent-mesh",
+  "remote_url": "https://github.com/Kot141078/c-governed-cli-agent-mesh.git",
+  "visibility": "public",
+  "branch": "main",
+  "commit_hash": "pending_until_git_commit",
+  "pushed_status": "pending",
+  "markdown_count": 32,
+  "pdf_count": 32,
+  "schema_count": 27,
+  "scan_results": {
+    "local_path_scan": {
+      "status": "pass",
+      "hits": []
+    },
+    "secret_marker_scan": {
+      "status": "pass",
+      "hits": []
+    },
+    "forbidden_claim_scan": {
+      "status": "pass",
+      "hits": []
+    }
+  },
+  "blockers": [],
+  "warnings": [],
+  "recommendation": "Ready to push initial main branch to GitHub. No release, tag, or Zenodo action is authorized."
+}

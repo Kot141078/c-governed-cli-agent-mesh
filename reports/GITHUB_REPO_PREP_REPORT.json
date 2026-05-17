@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-05-17T10:57:29Z",
+  "source_directory": "public_release_staging_cgam_v0_1_1",
+  "target_directory": "github_repo_cgam_v0_1_1",
+  "repository_name_candidate": "c-governed-cli-agent-mesh",
+  "markdown_count": 32,
+  "pdf_count": 32,
+  "schema_count": 27,
+  "required_root_files_status": {
+    "README.md": true,
+    "STATUS.md": true,
+    "RELEASE_NOTES.md": true,
+    "LICENSE.md": true,
+    "LICENSE-DOCS-CC-BY-4.0.md": true,
+    "LICENSE-CODE-MIT.md": true,
+    "CITATION.cff": true,
+    ".zenodo.json": true,
+    "SHA256SUMS": true
+  },
+  "required_directory_status": {
+    "docs/markdown": true,
+    "docs/pdf": true,
+    "schemas": true,
+    "validator": true,
+    "fixtures": true,
+    "manifests": true,
+    "reports": true,
+    "restricted_notice": true
+  },
+  "local_path_scan_result": {
+    "status": "pass",
+    "hits": []
+  },
+  "secret_marker_scan_result": {
+    "status": "pass",
+    "hits": []
+  },
+  "forbidden_claim_scan_result": {
+    "status": "pass",
+    "hits": []
+  },
+  "SHA256SUMS_status": "regenerated",
+  "blockers": [],
+  "warnings": [],
+  "recommendation": "GitHub repository local layout prepared; eligible for human review before any remote publication",
+  "no_github_push_performed": true,
+  "no_github_release_created": true,
+  "no_zenodo_upload_performed": true,
+  "no_conformance_supported_claim_made": true
+}

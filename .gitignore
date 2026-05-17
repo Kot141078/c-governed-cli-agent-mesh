@@ -1,0 +1,9 @@
+_pdf_metadata_backup_*
+_canonical_md_source_v0_1_1
+implementation_handoff_v0_1_1
+public_release_staging_cgam_v0_1_1
+*.tmp
+*.bak
+__pycache__/
+.DS_Store
+Thumbs.db
