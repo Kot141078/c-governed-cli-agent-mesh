@@ -6,5 +6,7 @@ authors:
     given-names: "Ivan"
     orcid: "https://orcid.org/0009-0009-6002-9845"
 version: "0.1.1"
+doi: "10.5281/zenodo.20257232"
+url: "https://zenodo.org/records/20257232"
 date-released: "2026-05-17"
 license: "CC-BY-4.0 AND MIT"

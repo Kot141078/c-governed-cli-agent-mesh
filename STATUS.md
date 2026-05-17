@@ -4,6 +4,10 @@ Status: Draft technical protocol package.
 
 This repository contains the CGAM v0.1.1 draft protocol package. Release and DOI status are tracked through the GitHub Releases page and Zenodo record when available.
 
+- GitHub release: cgam-v0.1.1
+- Zenodo archive: https://zenodo.org/records/20257232
+- Version DOI: 10.5281/zenodo.20257232
+- Concept DOI: 10.5281/zenodo.20257231
 - CGAM v0.1.1 hygiene synchronized.
 - Full review PDF set included.
 - P0 schemas extracted.

@@ -20,5 +20,26 @@
   ],
   "upload_type": "publication",
   "publication_type": "technicalnote",
-  "license": "cc-by-4.0"
+  "license": "cc-by-4.0",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.20257232",
+      "relation": "isIdenticalTo",
+      "scheme": "doi",
+      "resource_type": "publication-technicalnote"
+    },
+    {
+      "identifier": "10.5281/zenodo.20257231",
+      "relation": "isVersionOf",
+      "scheme": "doi",
+      "resource_type": "publication-technicalnote"
+    },
+    {
+      "identifier": "https://zenodo.org/records/20257232",
+      "relation": "isIdenticalTo",
+      "scheme": "url",
+      "resource_type": "publication-technicalnote"
+    }
+  ],
+  "notes": "Version DOI: 10.5281/zenodo.20257232. Zenodo record: https://zenodo.org/records/20257232. Concept DOI: 10.5281/zenodo.20257231."
 }

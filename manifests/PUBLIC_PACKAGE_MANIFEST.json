@@ -2,6 +2,11 @@
   "schema_version": "cgam-public-package-manifest-0.1",
   "package": "C-Governed CLI Agent Mesh",
   "package_version": "0.1.1",
+  "zenodo_record_url": "https://zenodo.org/records/20257232",
+  "version_doi": "10.5281/zenodo.20257232",
+  "version_doi_url": "https://doi.org/10.5281/zenodo.20257232",
+  "concept_doi": "10.5281/zenodo.20257231",
+  "concept_doi_url": "https://doi.org/10.5281/zenodo.20257231",
   "generated_at": "2026-05-17T10:52:29Z",
   "source_roots": {
     "source_root": "<SOURCE_ROOT>",

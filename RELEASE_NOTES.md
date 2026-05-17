@@ -6,6 +6,14 @@ This staging package assembles the synchronized Markdown corpus, full review PDF
 
 No conformance claim is made. No release-complete claim is made. Internal implementation handoff is prepared, but no final implementation-ready claim is made.
 
+## Archive
+
+CGAM v0.1.1 is archived on Zenodo:
+
+- Version DOI: https://doi.org/10.5281/zenodo.20257232
+- Zenodo record: https://zenodo.org/records/20257232
+- Concept DOI: https://doi.org/10.5281/zenodo.20257231
+
 ## Source Release Notes
 
 The source release notes remain in `docs/markdown/CLI_Agent_RELEASE_NOTES_v0_1.md`.

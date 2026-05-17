@@ -2,6 +2,14 @@
 
 This is a draft public staging package for the C-Governed CLI Agent Mesh technical protocol.
 
+## DOI / Archive
+
+- Version DOI: https://doi.org/10.5281/zenodo.20257232
+- Zenodo record: https://zenodo.org/records/20257232
+- Concept DOI: https://doi.org/10.5281/zenodo.20257231
+
+This release is archived on Zenodo as CGAM v0.1.1.
+
 ## Package Contents
 
 - `docs/markdown/` contains the 32 canonical Markdown source files.

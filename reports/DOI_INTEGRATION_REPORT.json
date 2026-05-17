@@ -1,0 +1,39 @@
+{
+  "summary": "CGAM v0.1.1 DOI metadata was added to the bounded repository metadata surface.",
+  "version_doi": "10.5281/zenodo.20257232",
+  "version_doi_url": "https://doi.org/10.5281/zenodo.20257232",
+  "zenodo_record_url": "https://zenodo.org/records/20257232",
+  "concept_doi": "10.5281/zenodo.20257231",
+  "concept_doi_url": "https://doi.org/10.5281/zenodo.20257231",
+  "files_updated": [
+    "README.md",
+    "STATUS.md",
+    "RELEASE_NOTES.md",
+    "CITATION.cff",
+    ".zenodo.json",
+    "manifests/PUBLIC_PACKAGE_MANIFEST.json",
+    "SHA256SUMS",
+    "reports/DOI_INTEGRATION_REPORT.md",
+    "reports/DOI_INTEGRATION_REPORT.json"
+  ],
+  "validation_results": {
+    "zenodo_json_valid": true,
+    "public_package_manifest_json_valid": true,
+    "citation_cff_yaml_valid": true,
+    "git_diff_check_passed": true,
+    "forbidden_repository_surfaces_modified": false,
+    "sha256sums_recomputed": true
+  },
+  "scan_results": {
+    "local_path_markers_found": false,
+    "secret_markers_found": false,
+    "affirmative_restricted_claim_found": false,
+    "restricted_claim_matches_context": "existing negative, gate, or non-claim language"
+  },
+  "warnings": [
+    "The GitHub release object was not modified; this patch updates repository metadata only.",
+    "Zenodo record metadata was not changed through Zenodo; this patch records the DOI values in the repository."
+  ],
+  "blockers": [],
+  "recommendation": "Verify the pushed commit on GitHub and then handle any website or public announcement updates only under a separate explicit contract."
+}
