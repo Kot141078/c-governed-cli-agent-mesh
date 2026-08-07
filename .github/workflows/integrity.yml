@@ -1,0 +1,21 @@
+name: Integrity
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  tagged-tree:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch the exact release tag
+        run: git fetch --depth=1 origin tag cgam-v0.1.1
+      - name: Verify the derived tagged-tree manifest
+        run: python3 tools/verify_tagged_tree_manifest.py
