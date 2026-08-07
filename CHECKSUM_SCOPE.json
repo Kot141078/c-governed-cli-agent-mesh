@@ -1,0 +1,44 @@
+{
+  "schema_version": "checksum-scope.v1",
+  "document_id": "cgam-v0.1.1-checksum-scope",
+  "last_verified": "2026-08-07",
+  "repository": "https://github.com/Kot141078/c-governed-cli-agent-mesh",
+  "release": {
+    "tag": "cgam-v0.1.1",
+    "tag_commit": "70090e1f0aa5f883f15ae591968981d1fb2d9b2c",
+    "version_doi": "https://doi.org/10.5281/zenodo.20257232",
+    "concept_doi": "https://doi.org/10.5281/zenodo.20257231"
+  },
+  "authority_rule": "The original SHA256SUMS is preserved as release provenance. The derived Git-tree manifest is a separate machine-readable projection over the exact tagged Git blobs; it does not rewrite or supersede DOI-bound archive bytes.",
+  "claim_boundary": "A checksum match proves byte identity in the declared hash domain only. It is not conformance, implementation, safety, legal, certification, or deployment evidence.",
+  "legacy_manifest": {
+    "path": "SHA256SUMS",
+    "status": "preserved_nonportable_release_manifest",
+    "entry_count": 290,
+    "observed_at_tag": {
+      "git_internal_entries": 171,
+      "public_path_entries": 119,
+      "raw_git_blob_matches": 32,
+      "crlf_projection_matches": 84,
+      "other_git_blob_mismatches": [
+        "GITHUB_RELEASE_DRAFT.md",
+        "README.md",
+        "STATUS.md"
+      ]
+    },
+    "machine_interpretation": "Do not use this file as a portable Git-tree manifest: it includes .git internals, records CRLF release-worktree representations for many text files, and contains three public-path digests that do not equal the tagged Git blobs in either raw-LF or CRLF projection."
+  },
+  "derived_git_tree_manifest": {
+    "path": "integrity/SHA256SUMS.cgam-v0.1.1-git-tree.txt",
+    "status": "derived_machine_projection",
+    "hash_algorithm": "sha256",
+    "hash_domain": "git_blob_bytes_at_tag_commit",
+    "source_commit": "70090e1f0aa5f883f15ae591968981d1fb2d9b2c",
+    "entry_count": 120,
+    "path_set_rule": "Exactly git ls-tree -r --name-only of source_commit, including the preserved legacy SHA256SUMS file and excluding all .git internals by construction."
+  },
+  "verification": {
+    "command": "python3 tools/verify_tagged_tree_manifest.py",
+    "prerequisite": "The exact source_commit must exist in the local Git object database; fetch tag cgam-v0.1.1 when using a shallow clone."
+  }
+}
